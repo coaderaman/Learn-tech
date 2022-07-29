@@ -1,5 +1,11 @@
+.header-sec {
+    background: black;
+    overflow: hidden;
+}
+
 .bland-mode {
-    background-blend-mode: gray;
+    object-fit: cover;
+    opacity: 0.6;
 }
 
 @media screen and (max-width:991px) {
@@ -19,5 +25,13 @@
     .icon-item {
         display: flex;
         flex-direction: column;
+    }
+
+    .course-img {
+        width: 500px;
+    }
+
+    body {
+        margin: 0px;
     }
 }
