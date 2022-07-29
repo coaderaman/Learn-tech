@@ -1,3 +1,9 @@
 .bland-mode {
-    background-blend-mode: overlay;
+    background-blend-mode: gray;
+}
+
+@media screen and (max-width:991px) {
+    .company-responsive {
+        visibility: hidden;
+    }
 }
