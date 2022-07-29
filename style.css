@@ -7,3 +7,17 @@
         visibility: hidden;
     }
 }
+
+@media screen and (max-width:991px) {
+    .ready-join {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .icon-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
